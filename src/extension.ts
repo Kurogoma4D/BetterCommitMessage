@@ -51,6 +51,7 @@ async function getCommitMessage(
     const response = await api.createCompletion({
       model: 'text-davinci-003',
       prompt: prompt,
+      // eslint-disable-next-line @typescript-eslint/naming-convention
       max_tokens: 100,
       stop: null,
     });
