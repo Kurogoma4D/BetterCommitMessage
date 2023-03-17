@@ -3,6 +3,7 @@
   "displayName": "Better Commit Message",
   "description": "Commit with suggested message from GPT-3.",
   "repository": "https://github.com/Kurogoma4D/BetterCommitMessage",
+  "publisher": "Kurogoma4D",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.76.0"
